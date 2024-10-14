@@ -11,7 +11,6 @@ from sklearn.model_selection import train_test_split
 from tensorflow.keras.utils import to_categorical
 
 # Load and preprocess images
-//image_directory = 'C:\\Users\\alone\\AppData\\Local\\Programs\\Python\\Python312\\face'  # Image directory
 image_directory = '\\workspaces\\celeba\\new_directory_name\\img_align_celeba'  # Image directory
 image_size = (224, 224)  # Resize images
 X_train = []
